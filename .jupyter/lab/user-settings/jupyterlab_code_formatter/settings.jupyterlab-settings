@@ -1,0 +1,15 @@
+{
+  "preferences": {
+    "default_formatter": {
+      "python": [
+        "ruff",
+        "black"
+      ],
+      "R": "styler"
+    }
+  },
+  "black": {
+    "preview": true
+  },
+  "formatOnSave": false
+}

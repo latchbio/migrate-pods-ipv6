@@ -1,0 +1,14 @@
+{
+  "LanguageServerManager": {
+    "language_servers": {
+      "pyright-language": {
+        "version": 2,
+        "argv": [
+          "/opt/mamba/envs/jupyterlab/bin/pyright-langserver",
+          "--stdio"
+        ],
+        "languages": ["python"]
+      }
+    }
+  }
+}

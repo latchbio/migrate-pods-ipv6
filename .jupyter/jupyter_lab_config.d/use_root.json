@@ -1,0 +1,7 @@
+{
+  "ServerApp": {
+    "allow_root": true,
+    "preferred_dir": "/root",
+    "root_dir": "/"
+  }
+}

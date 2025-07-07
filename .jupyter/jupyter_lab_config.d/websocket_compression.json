@@ -1,0 +1,5 @@
+{
+  "ServerApp": {
+    "websocket_compression_options": {}
+  }
+}

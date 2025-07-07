@@ -1,0 +1,6 @@
+{
+  "ServerApp": {
+    "allow_origin": "*",
+    "ip": "*"
+  }
+}

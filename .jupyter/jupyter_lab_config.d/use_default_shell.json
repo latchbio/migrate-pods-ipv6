@@ -1,0 +1,11 @@
+{
+  "ServerApp": {
+    "terminado_settings": {
+      "shell_command": [
+        "/bin/sh",
+        "-c",
+        "SHELL=\"$(cat /etc/passwd | grep \"${USER}\" | cut -d ':' -f 7)\"; exec \"${SHELL}\" -l"
+      ]
+    }
+  }
+}
