@@ -1,6 +1,6 @@
 rm --recursive --force /root/.jupyter
 cp --recursive .jupyter/ /root/.jupyter/
-cat ./rserver.conf > /etc/rstudio/reserver.conf
+cat ./rserver.conf > /etc/rstudio/rserver.conf
 
 /opt/mamba/envs/jupyterlab/bin/pip install \
     --quiet \
