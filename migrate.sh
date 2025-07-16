@@ -11,7 +11,6 @@ cat ./rserver.conf > /etc/rstudio/rserver.conf
 echo 'restarting rstudio-server'
 systemctl --user unmask rstudio-server
 systemctl --user restart rstudio-server
-systemctl --user mask rstudio-server
 
 echo 'restarting jupyterlab'
 systemctl --user restart jupyterlab
